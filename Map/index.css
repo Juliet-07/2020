@@ -1,0 +1,73 @@
+body{
+    background-color: #d0e4fe;
+    /* background-image: url('./show/beautiful-place.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+}
+h1{
+    color: orange;
+    text-align: center
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #333;
+    overflow: hidden; 
+}
+/* for fixed navigation */
+/* ul{
+    position: fixed;
+    top: 0;
+    width: 100%
+} */
+li{
+    /* text-align: center;
+    border-bottom: 1px solid#555; */
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px  16px;
+    text-decoration: none
+}
+li a:hover{
+    background-color:#111;
+    /* color: white  */
+}
+li:last-child{
+    border-bottom: none
+}
+img{
+    width: 500px;
+    height: 300px;
+    /* opacity: 0.4; */
+}
+img:hover{
+    opacity: 1.0
+}
+.background{
+    background:url('./show/beautiful-place.jpg') repeat;
+    border: 2px solid black
+}
+.transbox{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+.transbox p{
+    margin: 5%;
+    font-weight: bold;
+    color: #000;
+    text-align: center
+}
+@media only screen and (max-width: 480px){
+    body{
+        background-color: lightgreen
+    }
+}

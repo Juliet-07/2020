@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+      integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="recordstyles.css" />
+    <link rel="stylesheet" href="../styling.css" />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light py-1">
+      <a class="navbar-brand">RECORD MANAGEMENT SYSTEM</a>
+    </nav>
+    <div class="container">
+      <form>
+        <label for="spa" class="label">CATEGORY:</label>
+        <select name="spa" class="selectButton">
+          <optgroup label="ADD-ONS">
+            <option>Brow Tinting</option>
+            <option>Chin Twizing</option>
+            <option>Eyebrow Carving</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="BODY SCULPTING & SKIN TREATMENT">
+            <option>Abdomen + Handles</option>
+            <option>BBL + Thighs</option>
+            <option>Breast Enhancement</option>
+            <option>Breast Lift</option>
+            <option>Butt Enhancement</option>
+            <option>Full Abdomen</option>
+            <option>Full Arm</option>
+            <option>Handles</option>
+            <option>Lower Abdomen</option>
+            <option>Upper Back (Bra Back)</option>
+            <option>Sauna Body Wrap</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="BUTTOCKS & BREAST LIFTS">
+            <option>Breast</option>
+            <option>Butt</option>
+            <option>Hips</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="FACIALS">
+            <option>Acne Maintenance</option>
+            <option>Dermaplaning Facials</option>
+            <option>Chemical Peel</option>
+            <option>Consultation & Analysis</option>
+            <option>Cynergy Facials</option>
+            <option>Gentlemen Facials</option>
+            <option>Gentlemen Microderma</option>
+            <option>Hydra Facials</option>
+            <option>Hydro Glow</option>
+            <option>Microneedling Facials</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="FOOT & HAND CARE">
+            <option>Acrylic Nail Removal Facials</option>
+            <option>Classic Manicure</option>
+            <option>Classic Pedicure</option>
+            <option>Express Manicure</option>
+            <option>Express Pedicure</option>
+            <option>Foot Bath</option>
+            <option>Gel Polish</option>
+            <option>Gel Polish Acrylic Removal</option>
+            <option>Herbal Aromatherapy Pedicure</option>
+            <option>Jelly Pedicure</option>
+            <option>Nail Extensions</option>
+            <option>Nail Polish</option>
+            <option>Stick On Removal</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="LASER HAIR REMOVAL">
+            <option>Brazillian</option>
+            <option>Breast</option>
+            <option>Chin</option>
+            <option>Full Arm</option>
+            <option>Full Back</option>
+            <option>Full Body</option>
+            <option>Full Face</option>
+            <option>Full Front Chest</option>
+            <option>Full Leg</option>
+            <option>Half Arm</option>
+            <option>Half Leg</option>
+            <option>Hand & Finger</option>
+            <option>Lower/Upper Back</option>
+            <option>Shoulders</option>
+            <option>Tummy Trail</option>
+            <option>Underarm</option>
+            <option>Upperlip</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="LASHES">
+            <option>Classic</option>
+            <option>Hybrid</option>
+            <option>Mega Volume</option>
+            <option>Volume</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="MASSAGE">
+            <option>Cupping</option>
+            <option>Deep Tissue</option>
+            <option>Hot Stone</option>
+            <option>Pregnancy</option>
+            <option>Swedish</option>
+            <option>Thai Massage</option>
+            <option>Reflexology</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="PMU, MAKE-UP & EYEBROW">
+            <option>Combo Brows</option>
+            <option>Lip Blush</option>
+            <option>Microblading</option>
+            <option>Microshading</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="SKIN TIGHTENING TREATMENT">
+            <option>Eyes</option>
+            <option>Face</option>
+            <option>Face + Neck</option>
+            <option>Forehead</option>
+            <option>Forhead + Eyes</option>
+            <option>Hands</option>
+            <option>Lowerface + Chin</option>
+            <option>Neck + Chin</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="SKIN TREATMENT">
+            <option>Anti-aging Body Treatment</option>
+            <option>Body Steaming</option>
+            <option>Brightening Body Polish</option>
+            <option>Brightening Body Polish with Steaming</option>
+            <option>Full Body Detox and Body Wrap</option>
+            <option>Stretchmark Treatment</option>
+            <option>Body Acne Treatment</option>
+            <option>Body Brasion (Microdermabrasion)</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="TEETH WHITENING">
+            <option>Add Scaling & Polishing</option>
+            <option>Teeth Whitening (4 shades)</option>
+            <option>Teeth Whitening (8 shades)</option>
+          </optgroup>
+          <!-- Next -->
+          <optgroup label="WAXING (Hair Removal)">
+            <option>Bikini</option>
+            <option>Brazillian</option>
+            <option>Buttocks</option>
+            <option>Breast</option>
+            <option>Chest</option>
+            <option>Chin</option>
+            <option>Eyebrow</option>
+            <option>Full Arm</option>
+            <option>Full Back</option>
+            <option>Full Body Waxing</option>
+            <option>Full Face</option>
+            <option>Full Leg</option>
+            <option>Full Tommy</option>
+            <option>Half Arm</option>
+            <option>Half Back</option>
+            <option>Half Leg</option>
+            <option>Snail Trail Full</option>
+            <option>Snail Trail Half</option>
+            <option>Underarm</option>
+            <option>Underarm Facials</option>
+            <option>Underarm + Underarm Facials</option>
+            <option>Upperlip</option>
+            <option>Vajacials</option>
+            <option>Vajacials + Brazillian Waxing</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <button class="dropbtn" type="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

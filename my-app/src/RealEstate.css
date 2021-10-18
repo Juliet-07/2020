@@ -1,0 +1,28 @@
+.onslide{
+    position: absolute;
+    width:50%;
+    padding-bottom: 50px;
+    text-align: center;
+    top:200px;
+    right: 20px;
+    left: 120px;
+    margin:auto;
+    background-color: rgba(7, 7, 7, 0.747); 
+    color: rgba(244, 250, 244, 0.829);
+    font-family: 'Tahoma';
+}
+button{
+    width: 100px;
+    border: none;
+    border-radius: 50px; 
+    background-color: pink;
+    color:white;
+    height: 30px;
+    position: absolute;
+    text-align:center;
+    left: 250px;
+}
+button:hover{
+    background:rgb(209,43,43);
+    transition: 1s;
+}

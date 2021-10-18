@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/background"/>
+
+    <!-- This is for the picture -->
+    <item android:drawable="@drawable/logo"
+          android:height="140dp"
+          android:width="150dp"
+          android:gravity="center"
+    />
+    <item android:drawable="@drawable/gamified"
+            android:top="250dp"
+            android:height="25dp"
+            android:width="230dp"
+            android:gravity="center"
+    
+    />
+
+</layer-list>

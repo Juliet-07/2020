@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="recordstyles.css" />
+    <link rel="stylesheet" href="../styling.css" />
+    <!-- <link rel="stylesheet" href="../admin/styles.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light py-1">
+      <div class="container px-4 py-0">
+        <a class="navbar-brand text-white" href="#">RECORD MANAGEMENT SYSTEM</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./servicepage.html">Payment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr class="bg-primary text-white">
+            <th>CATEGORY</th>
+            <th>SERVICES</th>
+            <th>PRICES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button class="dropbtn">Add-ons</button></td>
+            <td>
+                <ul class="list">
+                  <li>Brow Tinting</li>
+                  <li>Chin Twizing</li>
+                  <li>Eyebrow Carving</li>
+                </ul>
+            </td>
+            <td>
+              <ul class="list">
+                <li></li>
+              </ul>
+            </td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Body Sculpting & Skin Tightening</button></td>
+            <td>
+              <ul class="list">
+                <li>Abdomen + Handles</li>
+                <li>BBL + Thighs</li>
+                <li>Breast Enhancement</li>
+                <li>Breast Lift</li>
+                <li>Butt Enhancement</li>
+                <li>Full Abdomen</li>
+                <li>Full Arm</li>
+                <li>Handles</li>
+                <li>Lower Abdomen</li>
+                <li>Upper Back (Bra Back)</li>
+                <li>Sauna Body Wrap</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="list">
+                <li>&#8358 55,000 - &#8358 230,000</li>
+                <li>&#8358 75,000 - &#8358 335,000</li>
+                <li>&#8358 25,000 - 65,000</li>
+                <li>&#8358 35,000 - &#8358 135,000</li>
+                <li>&#8358 30,000 - &#8358 80,000</li>
+                <li>&#8358 45,000 - &#8358 180,000</li>
+                <li>&#8358 30,000 - &#8358 115,000</li>
+                <li>&#8358 23,000 - &#8358 75,000</li>
+                <li>&#8358 22,000 - &#8358 70,000</li>
+                <li>&#8358 30,000 - &#8358 110,000</li>
+                <li></li>
+              </ul>
+            </td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Buttocks & Breast Lifts</button></td>
+            <td>
+                <ul class="list">
+                  <li>Breast</li>
+                  <li>Butt</li>
+                  <li>Hips</li>
+                </ul>
+            </td>
+            <td>
+              <ul class="list">
+
+              </ul>
+            </td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Facials</button></td>
+            <td>
+              <ul class="list">
+                <li>Acne Maintenance</li>
+                <li>Dermaplaning Facials</li>
+                <li>Chemical Peel</li>
+                <li>Consultation & Analysis</li>
+                <li>Cynergy Facials</li>
+                <li>Gentlemen Facials</li>
+                <li>Gentlemen Microderma</li>
+                <li>Hydra Facials</li>
+                <li>Hydro Glow</li>
+                <li>Microneedling Facials</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="list">
+                <li>&#8358 10,000</li>
+                <li>&#8358 20,000</li>
+                <li>&#8358 25,000 - 60,000</li>
+                <li>&#8358 10,000</li>
+                <li>&#8358 20,000</li>
+                <li>&#8358 15,000</li>
+                <li>&#8358 20,000</li>
+                <li>&#8358 25,000</li>
+                <li>&#8358 30,000</li>
+                <li>&#8358 25,000</li>
+              </ul>
+            </td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Foot & Hand Care</button></td>
+            <td>
+                <ul class="list">
+                  <li>Acrylic Nail Removal Facials</li>
+                  <li>Classic Manicure</li>
+                  <li>Classic Pedicure</li>
+                  <li>Express Manicure</li>
+                  <li>Express Pedicure</li>
+                  <li>Foot Bath</li>
+                  <li>Gel Polish</li>
+                  <li>Gel Polish Acrylic Removal</li>
+                  <li>Herbal Aromatherapy Pedicure</li>
+                  <li>Jelly Pedicure</li>
+                  <li>Nail Extensions</li>
+                  <li>Nail Polish</li>
+                  <li>Stick On Removal</li>
+                </ul>
+            </td>
+            <td></td>
+          </tr>
+          <!-- Next -->
+          <tr>
+              <td><button class="dropbtn">Laser Hair Removal</button></td>
+              <td>
+                <ul class="list">
+                  <li>Brazillian</li>
+                  <li>Breast</li>
+                  <li>Chin</li>
+                  <li>Full Arm</li>
+                  <li>Full Back</li>
+                  <li>Full Body</li>
+                  <li>Full Face</li>
+                  <li>Full Front Chest</li>
+                  <li>Full Leg</li>
+                  <li>Half Arm</li>
+                  <li>Half Leg</li>
+                  <li>Hand & Finger</li>
+                  <li>Lower/Upper Back</li>
+                  <li>Shoulders</li>
+                  <li>Tummy Trail</li>
+                  <li>Underarm</li>
+                  <li>Upperlip</li>
+                </ul>
+            </td>
+            <td>
+              <ul class="list">
+                <li>&#8358 25,000</li>
+                <li>&#8358 12,000</li>
+                <li>&#8358 15,000</li>
+                <li>&#8358 30,000</li>
+                <li>&#8358 30,000</li>
+                <li>&#8358 450,000</li>
+                <li>&#8358 40,000</li>
+                <li>&#8358 20,000</li>
+                <li>&#8358 35,000</li>
+                <li>&#8358 25,000</li>
+                <li>&#8358 22,000</li>
+                <li>&#8358 28,000</li>
+                <li>&#8358 15,000</li>
+                <li>&#8358 15,000</li>
+                <li>&#8358 12,000</li>
+                <li>&#8358 18,000</li>
+                <li>&#8358 12,000</li>
+              </ul>
+            </td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Lashes</button></td>
+            <td>
+                <ul class="list">
+                  <li>Classic</li>
+                  <li>Hybrid</li>
+                  <li>Mega Volume</li>
+                  <li>Volume</li>
+                </ul>
+              </td>
+              <td></td>
+            </tr>
+            <!-- Next -->
+            <tr>
+              <td><button class="dropbtn">Massage</button></td>
+              <td>
+                  <ul class="list">
+                    <li>Cupping</li>
+                    <li>Deep Tissue</li>
+                    <li>Hot Stone</li>
+                    <li>Pregnancy</li>
+                    <li>Swedish</li>
+                    <li>Thai Massage</li>
+                    <dl>
+                      <dt>Reflexology</dt>
+                      <dd>Full Back</dd>
+                      <dd>Hand</dd>
+                      <dd>Head</dd>
+                      <dd>Leg Relief</dd>
+                      <dd>Neck & Shoulders</dd>
+                    </dl>
+                  </ul>
+              </td>
+              <td>
+                <ul class="list">
+                  <li>&#8358 25,000</li>
+                  <li>&#8358 18,000</li>
+                  <li>&#8358 20,000</li>
+                  <li>&#8358 25,000</li>
+                  <li>&#8358 15,000</li>
+                  <li>&#8358 25,000</li>
+                  <dl>
+                    <dt>------</dt>
+                    <dd>&#8358 12,000</dd>
+                    <dd>&#8358 10,000</dd>
+                    <dd>&#8358 10,000</dd>
+                    <dd>&#8358 10,000</dd>
+                    <dd>&#8358 10,000</dd>
+                  </dl>
+                </ul>
+              </td>
+            </tr>
+            <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">PMU, Make-up & Eyebrow</button></td>
+            <td>
+                <ul class="list">
+                  <li>Combo Brows</li>
+                  <li>Lip Blush</li>
+                  <li>Microblading</li>
+                  <li>Microshading</li>
+              </ul>
+            </td>
+            <td></td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Skin Tightening Treatment</button></td>
+            <td>
+                <ul class="list">
+                  <li>Eyes</li>
+                  <li>Face</li>
+                  <li>Face + Neck</li>
+                  <li>Forehead</li>
+                  <li>Forhead + Eyes</li>
+                  <li>Hands</li>
+                  <li>Lowerface + Chin</li>
+                  <li>Neck + Chin</li>
+                </ul>
+            </td>
+            <td></td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Skin Treatment</button></td>
+            <td>
+                <ul class="list">
+                  <li>Anti-aging Body Treatment</li>
+                  <li>Body Steaming</li>
+                  <li>Brightening Body Polish</li>
+                  <li>Brightening Body Polish with Steaming</li>
+                  <li>Full Body Detox and Body Wrap</li>
+                  <li>Stretchmark Treatment</li>
+                  <dl>
+                    <dt>Body Acne Treatment</dt>
+                    <dd>Arm</dd>
+                    <dd>Back</dd>
+                    <dd>Chest</dd>
+                    <dd>Full Body</dd>
+                    <dd>Leg</dd>
+                    <dd>Thighs</dd>
+                  </dl>
+                  <dl>
+                    <dt>Body Brasion (Microdermabrasion)</dt>
+                    <dd>Abdomen</dd>
+                    <dd>Chest</dd>
+                    <dd>Décolleté </dd>
+                    <dd>Full Arm right or left</dd>
+                    <dd>Full Back</dd>
+                    <dd>Legs</dd>
+                    <dd>Left upper arm or lower arm </dd>
+                    <dd>Left upper leg or lower leg </dd>
+                    <dd>Right upper arm or lower arm</dd>
+                    <dd>Thighs</dd>
+                    <dd>Upper or lower back </dd>
+                  </dl>
+                </ul>
+            </td>
+            <td>
+              <ul class="list">
+                <li>&#8358 25,000</li>
+                <li>&#8358 20,000</li>
+                <li>&#8358 25,000</li>
+                <li>&#8358 35,000</li>
+                <li>&#8358 35,000</li>
+                <li>&#8358 30,000</li>
+                <dl>
+                  <dt>------</dt>
+                  <dd>&#8358 30,000</dd>
+                  <dd>&#8358 60,000</dd>
+                  <dd>&#8358 40,000</dd>
+                  <dd>&#8358 150,000</dd>
+                  <dd>&#8358 45,000</dd>
+                  <dd>&#8358 40,000</dd>
+                </dl>
+                <dl>
+                  <dt>------</dt>
+                  <dd>------</dd>
+                  <dd>&#8358 18,000</dd>
+                  <dd>------ </dd>
+                  <dd>------</dd>
+                  <dd>&#8358 20,000</dd>
+                  <dd>&#8358 12,000</dd>
+                  <dd>------</dd>
+                  <dd>------</dd>
+                  <dd>------</dd>
+                  <dd>&#8358 15,000</dd>
+                  <dd>------</dd>
+                </dl>
+            </td>
+          </tr>
+          <!-- Next -->
+          <tr>
+            <td><button class="dropbtn">Teeth Whitening</button></td>
+            <td>
+                <ul class="list">
+                  <li>Add Scaling & Polishing</li>
+                  <li>Teeth Whitening (4 shades)</li>
+                  <li>Teeth Whitening (8 shades)</li>
+                </ul>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><button class="dropbtn">Waxing (Hair Removal)</button></td>
+            <td>
+                <ul class="list">
+                  <li>Bikini</li>
+                  <li>Brazillian</li>
+                  <li>Breast</li>
+                  <li>Buttocks</li>
+                  <li>Chest</li>
+                  <li>Chin</li>
+                  <li>Eyebrow</li>
+                  <li>Full Arm</li>
+                  <li>Full Back</li>
+                  <li>Full Body Waxing</li>
+                  <li>Full Face</li>
+                  <li>Full Leg</li>
+                  <li>Full Tommy</li>
+                  <li>Half Arm</li>
+                  <li>Half Back</li>
+                  <li>Half Leg</li>
+                  <li>Snail Trail Full</li>
+                  <li>Snail Trail Half</li>
+                  <li>Underarm</li>
+                  <li>Underarm + Underarm Facials</li>
+                  <li>Underarm Facials</li>
+                  <li>Upperlip</li>
+                  <li>Vajacials</li>
+                  <li>Vajacials + Brazillian Waxing</li>
+                </ul>
+            </td>
+            <td>
+              <ul class="list">
+                <li>-----</li>
+                  <li>&#8358 12,000</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>&#8358 4,000</li>
+                  <li>&#8358 3,500</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>-----</li>
+                  <li>&#8358 1,500</li>
+                  <li>-----</li>
+                  <li>-----</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="record.js"></script>
+  </body>
+</html>

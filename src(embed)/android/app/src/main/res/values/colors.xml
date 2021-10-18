@@ -1,0 +1,6 @@
+<resources>
+        <!-- color/background -->
+    <color name="background">#fff</color>
+    <!-- color/statusBar -->
+    <color name="primary_dark">#000</color>
+</resources>
